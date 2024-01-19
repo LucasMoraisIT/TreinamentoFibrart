@@ -1,0 +1,60 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(155deg,#1da9f574 30%,#0090d278);
+}
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+p{
+    text-align: justify;
+    font-size: 1.2em;
+}
+main{
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 15px;
+    width: 85%;
+    padding: 10px;
+    box-shadow: 1px 5px 5px 5px rgb(0, 0, 0);
+}
+#Logo{
+    margin-left: 0;
+    width: auto;
+    border-radius: 15px;
+    padding: 15px;
+}
+video{
+    justify-content: center;
+    object-fit: contain;
+    height: 70%;
+    width: 70%;
+}
+#fluxo{
+    object-fit: contain;
+    height: 70%;
+    width: 70%;
+}
+h1{
+    color: #2D529F;
+    text-align: center;
+}
+h2{
+    background-color: #008FE2;
+    color: #FFEDF4;
+}
+.centralizar{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: aliceblue;
+    font: 20pt mono;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+ul{
+    list-style-type:decimal;
+}
